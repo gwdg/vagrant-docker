@@ -20,7 +20,7 @@ Get Started
 
 1. Place your Dockerproject in the directory ./docker like ./docker/example.
 2. Insert a Dockerfile thats describes your docker image
-3. Insert a Dockerenv see [link](#-docker-environment)
+3. Insert a Dockerenv see [Docker Environment](#docker-environment)
 
 vagrant up <project>
 
