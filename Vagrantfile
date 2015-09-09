@@ -6,7 +6,7 @@ docker_nodes = Dir["#{vagrant_base}/docker/*"].select {|f| File.directory? f}.ma
 Vagrant.configure("2") do |config|
 
   config.vm.provider "docker" do |d|
-    d.vagrant_vagrantfile = "./docker-host/Vagrantfile"
+    d.vagrant_vagrantfile = File.expand_path("#{vagrant_base}/docker-host/Vagrantfile")
   end
 
   docker_nodes.each do |docker_node|
