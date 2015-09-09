@@ -36,3 +36,10 @@ Docker Environment
 You can link to other dockerimages or at volumes or forwared ports etc by editing your Dockerenv inside your project (See: http://docs.vagrantup.com/v2/docker/configuration.html)
 
 If you want to forward some ports to your host you must also specify this in ./docker-host/Vagrantfile
+
+Docker Debug
+==============
+You can login into the docker host per vagrant ssh \<docker-host\>. 
+
+1. Search for the docker-host vagrant id with "vagrant global-status"
+2. Log into the docker-host "vagrant ssh \<id\>
