@@ -1,9 +1,3 @@
-General Information 
-===================
-
-This is a Development Environment for LSF Docker Integration
-
-
 Directory Structure
 ===================
 
