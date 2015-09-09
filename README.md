@@ -28,6 +28,8 @@ password: tcuser
 
 ATTENTION: if you chance your Dockerfile or Data inside your Project you need to reload your project with vagrant reload \<project\> because vagrant dont sync the data to the docker image at the moment
 
+HINT: You can clone or symlink your project into ./docker directory 
+
 Docker Environment
 ==================
 
