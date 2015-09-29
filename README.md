@@ -25,7 +25,7 @@ HINT: You can clone or symlink your project into ./docker directory
 Docker Environment
 ==================
 
-You can link to other dockerimages or at volumes or forwared ports etc by editing your Dockerenv inside your project (See: http://docs.vagrantup.com/v2/docker/configuration.html)
+You can link to other dockerimages or at volumes or forward ports etc by editing your Dockerenv inside your project (See: http://docs.vagrantup.com/v2/docker/configuration.html)
 
 If you want to forward some ports to your host you must also specify this in ./docker-host/Vagrantfile
 
